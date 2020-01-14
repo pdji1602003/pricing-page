@@ -20,8 +20,7 @@ I would say this webpage would be perfect if a slide-down effect could be added 
 But this is just my opinion.
 
 The second reason is that I wanted to challenge myself to code this webpage using HTML & CSS only, without JavaScript.  
-I think the animation done on this webpage is achievable with CSS   
-and after the completion of the coding of this webpage I think I'm right about it.
+I think the animation done on this webpage is achievable with CSS and after the completion of the coding of this webpage I think I'm right about it.
 
 
 
