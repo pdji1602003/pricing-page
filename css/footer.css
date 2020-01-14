@@ -1,0 +1,66 @@
+footer {
+	padding-top: 5rem;
+	padding-bottom: 4rem;
+	color: white;
+	background-color: #300D4F;
+}
+
+.footer_grid {
+	display: grid;
+	grid-template-areas: "a b" "c c";
+	grid-template-columns: 2fr 3fr;
+	grid-template-rows: 1fr 50px;
+	margin-bottom: 0;
+}
+
+.footer_grid>.footer_logo {
+	grid-area: a;
+}
+
+.footer_grid>.footer_list-container {
+	grid-area: b;
+	display: flex;
+}
+
+.footer_grid>.footer_copyright {
+	grid-area: c;
+	margin-top: 2rem;
+	font-size: .65rem;
+	font-weight: lighter;
+	line-height: 2;
+}
+
+.footer_logo {
+	display: inline-block;
+}
+
+.footer_logo>img {
+	display: inline-block;
+	max-width: 150px;
+	/* to change img color from black to white */
+	filter: invert(100%);
+}
+
+.footer_list {
+	flex: 1;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer_list > li > a  {
+	color: white;
+	font-size: .8rem;
+	line-height:2.3; 
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.footer_list > li:first-of-type{
+	font-size: 1rem;
+	font-weight: bolder;
+}
+
+.footer_list > li > a:hover {
+	background: white;
+	color: #300D4F;
+}

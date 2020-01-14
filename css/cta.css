@@ -1,0 +1,26 @@
+.pricing-cta {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 0;
+	background-color: #65327F;
+}
+
+.pricing-cta_container {
+	width: 50%;
+	margin: 0 auto;
+	padding-bottom: 2rem;
+	text-align: center;
+}
+
+.pricing-cta_container > h2 {
+	padding: 2rem;
+	color: white;
+	font-weight: bolder;
+	letter-spacing: -1px;
+	word-spacing: -1px;
+}
+
+.pricing-cta_button-container > a {
+	display: inline-block;
+}
+
