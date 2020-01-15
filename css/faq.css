@@ -101,3 +101,10 @@
 .pricing-faq_faq>[type="checkbox"]:checked~.pricing-faq_answer {
 	display: block;
 }
+
+@media screen and (max-width:959px){
+	.pricing-faq_faq {
+		width:100%;
+		margin-right: 0;
+	}
+}

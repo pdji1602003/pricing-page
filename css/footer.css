@@ -64,3 +64,35 @@ footer {
 	background: white;
 	color: #300D4F;
 }
+
+@media screen and (max-width:959px){
+	.footer_grid {
+		display: grid;
+		grid-template-areas: 
+		"a . ." 
+		"b b b"
+		"c c c";
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 150px 1fr 50px;
+		margin-bottom: 0;
+	}
+	
+	.footer_grid>.footer_logo {
+		grid-area: a;
+	}
+	
+	.footer_grid>.footer_list-container {
+		display: block;
+		
+	}
+	
+	.footer_grid>.footer_copyright {
+		grid-area: c;
+	}
+
+	.footer_list {
+		width: 40%;
+		margin-bottom: 1rem;
+	}
+}
+

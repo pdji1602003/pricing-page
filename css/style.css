@@ -10,6 +10,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	/* outline: 1px black dashed; */
 }
 
 ul {
@@ -181,9 +182,8 @@ h2 {
 }
 
 .mobile-menu-container {
-	/* display: none; */
 	position: absolute;
-	z-index: 9;
+	z-index: -1;
 	top: 0;
 	right: 0;
 	min-width: 340px;
@@ -197,6 +197,15 @@ h2 {
 }
 
 @media screen and (max-width:959px) {
+	html {
+		font-size: 16px;
+	}
+	body > * {
+		overflow-x: hidden;
+	}
+	.pricing-header {
+		margin-bottom: 0;
+	}
 	.pricing-header_navbar, .pricing-header_signin {
 		display: none;
 	}
@@ -229,6 +238,7 @@ h2 {
 		top: 8px;
 	}
 	#mobile-menu:checked~.mobile-menu-container {
+		z-index: 9;
 		opacity: 1;
 	}
 	#mobile-menu:checked+.hamburger-menu-container>.hamburger-menu {
@@ -263,5 +273,8 @@ h2 {
 	.mobile-menu_link-container {
 		border-top: 2px solid #f5f4f4;
 		padding: 1rem 1rem;
+	}
+	.pricing-heading{
+		margin-top: 3rem;
 	}
 }

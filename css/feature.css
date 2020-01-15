@@ -18,6 +18,11 @@
 	transform: translateY(-50%);
 }
 
+.pricing-feature_list-container {
+	display: inline-block;
+	width: 60%;
+}
+
 .pricing-feature_list {
 	display: inline-block;
 	margin-right: 1.5rem;
@@ -66,11 +71,29 @@
 
 .pricing-feature_img-container {
 	position: absolute;
-	width: 40%;
 	top: -100px;
 	right: 0;
+	width: 40%;
 }
 
 .pricing-feature_img-container>img {
 	max-width: 100%;
+}
+
+@media screen and (max-width:959px){
+	.pricing-feature_list-container {
+		width: 100%;
+	}
+
+	.pricing-feature_img-container {
+		position: static;
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+		height: auto;
+	}
+
+	.pricing-feature_list>li {
+		word-spacing: 0;
+	}
 }
