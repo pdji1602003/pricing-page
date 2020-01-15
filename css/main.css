@@ -1,22 +1,24 @@
 .pricing-heading>h1 {
 	margin-bottom: 5px;
+	font-size: 2rem;
 	font-weight: bolder;
+	line-height: 1.2;
 	text-transform: uppercase;
 }
 
 .pricing-heading>p {
-	font-size: .8rem;
+	font-size: 1rem;
 	font-weight: bolder;
 }
 
 .pricing-table {
 	display: flex;
 	justify-content: center;
+	align-items: stretch;
 }
 
 .pricing-tier {
 	flex: 1;
-	min-height: 65vh;
 	margin: .5rem;
 	padding: 1rem;
 	background-color: #fff;
@@ -31,7 +33,7 @@
 
 .pricing-tier>div {
 	position: relative;
-	height: 40%;
+	min-height: 200px;
 	margin-bottom: 1rem;
 }
 

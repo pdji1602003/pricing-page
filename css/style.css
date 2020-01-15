@@ -42,7 +42,9 @@ header {
 section {
 	max-width: 1200px;
 	margin: 0 auto;
-	margin-bottom: 3rem;
+	margin-bottom: 4rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
 }
 
 h2 {
