@@ -4,7 +4,6 @@
 @import './faq.css';
 @import './cta.css';
 @import './footer.css';
-
 /* BASIC SETUP */
 
 *, *::before, *::after {
@@ -168,4 +167,101 @@ h2 {
 
 .pricing-header_signin-item:nth-child(2):hover>a {
 	color: black;
+}
+
+/* mobile menu */
+
+#mobile-menu {
+	position: absolute;
+	opacity: 0;
+}
+
+.hamburger-menu-container {
+	display: none;
+}
+
+.mobile-menu-container {
+	/* display: none; */
+	position: absolute;
+	z-index: 9;
+	top: 0;
+	right: 0;
+	min-width: 340px;
+	padding: .5rem;
+	background-color: white;
+	box-shadow: 0 1px 30px rgba(0, 0, 0, 0.05);
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	opacity: 0;
+	transition: all .2s ease-in-out;
+}
+
+@media screen and (max-width:959px) {
+	.pricing-header_navbar, .pricing-header_signin {
+		display: none;
+	}
+	.hamburger-menu-container {
+		display: inline-block;
+		z-index: 99;
+		cursor: pointer;
+	}
+	.hamburger-menu {
+		display: inline-block;
+		position: relative;
+		width: 28px;
+		height: 4px;
+		background-color: black;
+		border-radius: 1000px;
+	}
+	.hamburger-menu::before, .hamburger-menu::after {
+		content: '';
+		position: absolute;
+		width: 28px;
+		height: 4px;
+		background-color: black;
+		border-radius: 1000px;
+		transition: all .2s ease-in-out;
+	}
+	.hamburger-menu::before {
+		top: -8px;
+	}
+	.hamburger-menu::after {
+		top: 8px;
+	}
+	#mobile-menu:checked~.mobile-menu-container {
+		opacity: 1;
+	}
+	#mobile-menu:checked+.hamburger-menu-container>.hamburger-menu {
+		background-color: white;
+		transform: rotate(90deg);
+	}
+	#mobile-menu:checked+.hamburger-menu-container>.hamburger-menu::before {
+		background-color: #C223CE;
+		transform: translateY(8px) rotate(135deg);
+	}
+	#mobile-menu:checked+.hamburger-menu-container>.hamburger-menu::after {
+		background-color: #C223CE;
+		transform: translateY(-8px) rotate(-135deg);
+	}
+	.mobile-menu-container>h2 {
+		font-size: 1.5rem;
+		line-height: 100px;
+	}
+	.mobile-menu_nav-container {
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		border-radius: 4px;
+		margin-bottom: 1rem;
+	}
+	.mobile-menu_nav-container .pricing-header li {
+		padding: 1rem .8rem;
+	}
+	.mobile-menu_nav-container2 {
+		font-weight: 700;
+		font-size: .8rem;
+		margin-bottom: 1rem;
+	}
+	.mobile-menu_link-container {
+		border-top: 2px solid #f5f4f4;
+		padding: 1rem 1rem;
+	}
 }
