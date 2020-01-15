@@ -238,6 +238,7 @@ h2 {
 		top: 8px;
 	}
 	#mobile-menu:checked~.mobile-menu-container {
+		min-width: 300px;
 		z-index: 9;
 		opacity: 1;
 	}
