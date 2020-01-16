@@ -60,7 +60,6 @@ h2 {
 
 .pricing-header_logo {
 	display: inline-block;
-	vertical-align: middle;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
@@ -80,23 +79,49 @@ h2 {
 	padding: .5rem .8rem;
 }
 
-.pricing-header_navbar-item {
+.pricing-header_navbar .pricing-header_navbar-item {
 	position: relative;
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+	
+}
+
+.pricing-header_navbar-item::before, .pricing-header_navbar-item::after {
+	position: absolute;
+	top: 55%;
+	right: 15px;
+	content: '';
+	width: 7px;
+	height: 1.5px;
+	background-color: #300D4F;
+	font-weight: 800;
+}
+
+.pricing-header_navbar-item::before {
+	transform: rotate(45deg);
+}
+
+.pricing-header_navbar-item::after {
+	transform: translateX(4px) rotate(-45deg);
 }
 
 .pricing-header_navbar-menu {
+	display: none;
+	padding: 8px;
 	position: absolute;
 	top: 50px;
 	left: 50%;
 	transform: translateX(-50%);
-	z-index: 2;
+	z-index: 3;
 	background-color: white;
 	box-shadow: 0 -1px 8px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 3px;
 	visibility: hidden;
+	cursor: pointer;
 }
 
-.pricing-header_navbar-item>a:hover+.pricing-header_navbar-menu {
+.pricing-header_navbar-item:hover .pricing-header_navbar-menu {
+	display: block;
 	visibility: visible;
 }
 
@@ -112,6 +137,11 @@ h2 {
 	border-bottom: 10px solid white;
 }
 
+.pricing-header_navbar-menu .pricing-header_navbar-menu-container {
+	padding: 1rem 1rem 1rem 1rem;
+}
+
+
 .pricing-header_navbar-menu-container::before {
 	content: '';
 	float: left;
@@ -120,6 +150,14 @@ h2 {
 	margin-top: 6px;
 	border-radius: 50%;
 	background-color: salmon;
+}
+
+.pricing-header_navbar-menu-container:nth-child(2)::before {
+	background-color: rgb(85, 26, 139);
+}
+
+.pricing-header_navbar-menu-container:nth-child(3)::before {
+	background-color: #05E6A0;
 }
 
 .pricing-header_navbar-menu-item {
@@ -140,7 +178,8 @@ h2 {
 }
 
 .pricing-header_navbar-menu-container:hover {
-	background-color: #ccc;
+	transition: all .1s linear;
+	background-color: rgba(0, 0, 0, 0.035);
 }
 
 .pricing-header_signin-item:first-child>a {
@@ -200,7 +239,7 @@ h2 {
 	html {
 		font-size: 16px;
 	}
-	body > * {
+	body>* {
 		overflow-x: hidden;
 	}
 	.pricing-header {
@@ -238,7 +277,7 @@ h2 {
 		top: 8px;
 	}
 	#mobile-menu:checked~.mobile-menu-container {
-		min-width: 100%;
+		min-width: 340px;
 		z-index: 9;
 		opacity: 1;
 	}
@@ -275,7 +314,13 @@ h2 {
 		border-top: 2px solid #f5f4f4;
 		padding: 1rem 1rem;
 	}
-	.pricing-heading{
+	.pricing-heading {
 		margin-top: 3rem;
+	}
+}
+
+@media screen and (max-width:414px) {
+	#mobile-menu:checked~.mobile-menu-container {
+		width: 100%;
 	}
 }

@@ -25,6 +25,9 @@
 }
 
 @media screen and (max-width:959px){
+	.pricing-cta_container{
+		width: 100%;
+	}
 	.pricing-cta_container > h2 {
 		font-size: 1rem;
 		padding-bottom: 1.2rem;
