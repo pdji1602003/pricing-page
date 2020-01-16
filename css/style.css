@@ -322,5 +322,6 @@ h2 {
 @media screen and (max-width:414px) {
 	#mobile-menu:checked~.mobile-menu-container {
 		width: 100%;
+		min-width: 100%;
 	}
 }
