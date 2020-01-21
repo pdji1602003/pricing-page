@@ -78,6 +78,7 @@
 
 .pricing-feature_img-container>img {
 	max-width: 100%;
+	border-radius: 8px;
 }
 
 @media screen and (max-width:959px){
