@@ -5,7 +5,6 @@ The files that are stored in this repository is the webpage I coded entirely bas
 I coded everything up from scratch and I did this only to practice my HTML and CSS skills.  
 **All design credits belong to [PUSHER](https://pusher.com/).**  
 Should there be any issues, please feel free to contact me.  
-I will remove this repository as soon as possible.
 
 ## Why I chosen this webpage to practice?
 The number 1 reason is that this webpage is aesthetically pleasing.
