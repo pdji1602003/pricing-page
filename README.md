@@ -1,9 +1,10 @@
 # pricing-page
 
 ## Disclaimer:
-The files that are stored in this repository is the webpage I coded entirely based on [CHAKIT's pricing page](https://pusher.com/chatkit/pricing).  
+The design of this webpage is entirely based on [CHAKIT's pricing page](https://pusher.com/chatkit/pricing).  
 I coded everything up from scratch and I did this only to practice my HTML and CSS skills.  
 **All design credits belong to [PUSHER](https://pusher.com/).**  
+Also please note that I swapped out the image used on CHAKIT's pricing page with the one from Unsplash.
 Should there be any issues, please feel free to contact me.  
 
 ## Why I chosen this webpage to practice?
@@ -20,6 +21,7 @@ But this is just my opinion. ☺️
 
 The second reason is that I wanted to challenge myself to code this webpage using HTML & CSS only, without JavaScript.  
 I think the animation done on this webpage is achievable with CSS and after the completion of the coding of this webpage I think I'm right about it.
+
 
 
 
