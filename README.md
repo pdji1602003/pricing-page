@@ -16,7 +16,7 @@ I especially like the faq section where each question card has beautiful border 
 
 If there were anything thing that could be improved upon, 
 I would say this webpage would be perfect if a slide-down effect could be added in the faq section when the button on the upper right corner of each card get clicked.  
-But this is just my opinion.
+But this is just my opinion. ☺️
 
 The second reason is that I wanted to challenge myself to code this webpage using HTML & CSS only, without JavaScript.  
 I think the animation done on this webpage is achievable with CSS and after the completion of the coding of this webpage I think I'm right about it.
