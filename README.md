@@ -7,7 +7,7 @@ I coded everything up from scratch and I did this only to practice my HTML and C
 Also please note that I swapped out the image used on CHAKIT's pricing page with the one from Unsplash.
 Should there be any issues, please feel free to contact me.  
 
-## Why I chosen this webpage to practice?
+## Why I chose this webpage to practice?
 The number 1 reason is that this webpage is aesthetically pleasing.
 I like the color palette used on this webpage,   
 which in my opinion is eye-catching but not aggressive.
@@ -22,6 +22,7 @@ But this is just my opinion. ☺️
 The second reason is that I wanted to challenge myself to code this webpage using HTML & CSS only, without JavaScript.  
 I think the animation done on this webpage is achievable with CSS and after the completion of the coding of this webpage I think I'm right about it.
 
-
+## Credit
+As mentioned in the Disclaimer section, for the imaged used in this project, I use the photo shot by [@plushdesignstudio](https://unsplash.com/@plushdesignstudio). :)
 
 
