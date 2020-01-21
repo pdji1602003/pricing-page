@@ -4,7 +4,7 @@
 The design of this webpage is entirely based on [CHAKIT's pricing page](https://pusher.com/chatkit/pricing).  
 I coded everything up from scratch and I did this only to practice my HTML and CSS skills.  
 **All design credits belong to [PUSHER](https://pusher.com/).**  
-Also please note that I swapped out the image used on CHAKIT's pricing page with the one from Unsplash.
+Also please note that I swapped out the image used on CHAKIT's pricing page with the one from Unsplash.  
 Should there be any issues, please feel free to contact me.  
 
 ## Why I chose this webpage to practice?
