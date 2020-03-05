@@ -1,5 +1,8 @@
 # pricing-page
 
+## Demo page:
+Please visit here 👉🏻： [pricing-page](https://pricing-page-for-practice-only.netlify.com/)
+
 ## Disclaimer:
 The design of this webpage is entirely based on [CHAKIT's pricing page](https://pusher.com/chatkit/pricing).  
 I coded everything up from scratch and I did this only to practice my HTML and CSS skills.  
